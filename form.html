@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FORM TAG</title>
+</head>
+<body bgcolor="yellow"   
+        <form action="">
+            <fieldset>
+                <legend>PERSONAL DETAILS</legend>
+            <label for="name">name</label>
+            <input type="text" id="name" name="name" placeholder="vjtharun" required><br><br>
+            <label for="age">age</label>
+            <input type="number" id="age" name="age" placeholder="23" required><br><br>
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" placeholder="email.@gmail.com" required><br><br>
+            <label for="DOB">DOB</label>
+            <input type="date" name="DOB" id="DOB" ><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>EDUCATIONAL DETAILS</legend>
+                <label for="">DEPARTMENT</label>
+                <input type="radio" name="DEPARTMENT" id="cs">
+                <label for="">CSE</label>
+                <input type="radio" name="DEPARTMENT" id="ec">
+                <label for="">ECE</label>
+                <input type="radio" name="DEPARTMENT" id="civil">
+                <label for="">CIVIL</label><br><br>
+                <label for="">YOG</label>
+                <input list="yog" name="yop" id="yop">
+                <datalist id ="yog">
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                </datalist><br><br>
+                <label for="">SKILL</label><br><br>
+                <input type="checkbox" name="html" id="html">
+                <label for="">HTML</label>
+                <input type="checkbox" name="css" id="css">
+                <label for="">CSS</label>
+                <input type="checkbox" name="js" id="js">
+                <label for="">JAVASCRIPT</label>
+            </fieldset>
+            <input type="SUBMIT">
+        </form>
+    
+</body>
+</html>
